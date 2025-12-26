@@ -1,19 +1,17 @@
-import { defineConfig } from "vitest/config";
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 import path from "path";
 
-const templateRoot = path.resolve(import.meta.dirname);
-
 export default defineConfig({
-  root: templateRoot,
+  plugins: [react()],
   resolve: {
     alias: {
-      "@": path.resolve(templateRoot, "client", "src"),
-      "@shared": path.resolve(templateRoot, "shared"),
-      "@assets": path.resolve(templateRoot, "attached_assets"),
+      "@": path.resolve(__dirname, "./client/src"),
+      "@db": path.resolve(__dirname, "./db"),
     },
   },
-  test: {
-    environment: "node",
-    include: ["server/**/*.test.ts", "server/**/*.spec.ts"],
+  build: {
+    outDir: "dist/public",
+    emptyOutDir: true,
   },
 });
