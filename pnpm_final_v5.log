@@ -1,0 +1,30 @@
+
+> kimi_novel_generator@1.0.0 dev /home/ubuntu/kimi_novel_generator/kimi_novel_generator
+> NODE_ENV=development tsx watch server/_core/index.ts
+
+[OAuth] Initialized with baseURL: 
+[OAuth] ERROR: OAUTH_SERVER_URL is not configured! Set OAUTH_SERVER_URL environment variable.
+Port 3000 is busy, using port 3001 instead
+Server running on http://localhost:3001/
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+[Auth] Missing session cookie
+[Database] Using local SQLite database via LibSQL
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+[Auth] Missing session cookie
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+12:11:25 PM [tsx] change in ./server/db.ts Restarting...
+c[OAuth] Initialized with baseURL: 
+[OAuth] ERROR: OAUTH_SERVER_URL is not configured! Set OAUTH_SERVER_URL environment variable.
+Port 3000 is busy, using port 3005 instead
+Server running on http://localhost:3005/
+ ELIFECYCLE  Command failed.

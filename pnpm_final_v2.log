@@ -1,0 +1,99 @@
+
+> kimi_novel_generator@1.0.0 dev /home/ubuntu/kimi_novel_generator/kimi_novel_generator
+> NODE_ENV=development tsx watch server/_core/index.ts
+
+[OAuth] Initialized with baseURL: 
+[OAuth] ERROR: OAUTH_SERVER_URL is not configured! Set OAUTH_SERVER_URL environment variable.
+Server running on http://localhost:3000/
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+[Auth] Missing session cookie
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+[Auth] Missing session cookie
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+12:02:00 PM [tsx] change in ./server/db.ts Restarting...
+c
+node:internal/modules/run_main:122
+    triggerUncaughtException(
+    ^
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'better-sqlite3' imported from /home/ubuntu/kimi_novel_generator/kimi_novel_generator/server/db.ts
+    at packageResolve (node:internal/modules/esm/resolve:857:9)
+    at moduleResolve (node:internal/modules/esm/resolve:926:18)
+    at defaultResolve (node:internal/modules/esm/resolve:1056:11)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at resolveBase (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.21.0/node_modules/tsx/dist/esm/index.mjs?1766768520260:2:3744)
+    at resolveDirectory (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.21.0/node_modules/tsx/dist/esm/index.mjs?1766768520260:2:4243)
+    at resolveTsPaths (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.21.0/node_modules/tsx/dist/esm/index.mjs?1766768520260:2:4984)
+    at async resolve (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.21.0/node_modules/tsx/dist/esm/index.mjs?1766768520260:2:5355)
+    at async nextResolve (node:internal/modules/esm/hooks:748:22)
+    at async Hooks.resolve (node:internal/modules/esm/hooks:240:24) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v22.13.0
+12:08:23 PM [tsx] change in ./server/db.ts Rerunning...
+c
+node:internal/modules/run_main:122
+    triggerUncaughtException(
+    ^
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@libsql/client' imported from /home/ubuntu/kimi_novel_generator/kimi_novel_generator/server/db.ts
+    at packageResolve (node:internal/modules/esm/resolve:857:9)
+    at moduleResolve (node:internal/modules/esm/resolve:926:18)
+    at defaultResolve (node:internal/modules/esm/resolve:1056:11)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at resolveBase (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.21.0/node_modules/tsx/dist/esm/index.mjs?1766768903297:2:3744)
+    at resolveDirectory (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.21.0/node_modules/tsx/dist/esm/index.mjs?1766768903297:2:4243)
+    at resolveTsPaths (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.21.0/node_modules/tsx/dist/esm/index.mjs?1766768903297:2:4984)
+    at async resolve (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.21.0/node_modules/tsx/dist/esm/index.mjs?1766768903297:2:5355)
+    at async nextResolve (node:internal/modules/esm/hooks:748:22)
+    at async Hooks.resolve (node:internal/modules/esm/hooks:240:24) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v22.13.0
+12:11:25 PM [tsx] change in ./server/db.ts Rerunning...
+c[OAuth] Initialized with baseURL: 
+[OAuth] ERROR: OAUTH_SERVER_URL is not configured! Set OAUTH_SERVER_URL environment variable.
+Server running on http://localhost:3000/
+ ELIFECYCLE  Command failed.

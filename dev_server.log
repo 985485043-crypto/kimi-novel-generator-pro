@@ -1,0 +1,79 @@
+
+> kimi_novel_generator@1.0.0 dev
+> NODE_ENV=development tsx watch server/_core/index.ts
+
+[OAuth] Initialized with baseURL: 
+[OAuth] ERROR: OAUTH_SERVER_URL is not configured! Set OAUTH_SERVER_URL environment variable.
+11:36:13 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+Server running on http://localhost:3000/
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/vite@7.1.9_@types+node@24.7.0_jiti@2.6.1_lightningcss@1.30.1_tsx@4.20.6/node_modules/vite/dist/node/chunks/dep-CCSnTAeo.js' imported from /home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/vite@7.1.9_@types+node@24.7.0_jiti@2.6.1_lightningcss@1.30.1_tsx@4.20.6/node_modules/vite/dist/node/chunks/dep-Chhhsdoe.js
+    at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+    at moduleResolve (node:internal/modules/esm/resolve:932:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1056:11)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at resolveBase (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/esm/index.mjs?1766766971494:2:3744)
+    at resolveDirectory (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/esm/index.mjs?1766766971494:2:4243)
+    at resolveTsPaths (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/esm/index.mjs?1766766971494:2:4984)
+    at resolve (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/esm/index.mjs?1766766971494:2:5361)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at o (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/@tailwindcss+node@4.1.14/node_modules/@tailwindcss/node/dist/esm-cache.loader.mjs:1:69)
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/vite@7.1.9_@types+node@24.7.0_jiti@2.6.1_lightningcss@1.30.1_tsx@4.20.6/node_modules/vite/dist/node/chunks/dep-CCSnTAeo.js' imported from /home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/vite@7.1.9_@types+node@24.7.0_jiti@2.6.1_lightningcss@1.30.1_tsx@4.20.6/node_modules/vite/dist/node/chunks/dep-Chhhsdoe.js
+    at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+    at moduleResolve (node:internal/modules/esm/resolve:932:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1056:11)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at resolveBase (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/esm/index.mjs?1766766971494:2:3744)
+    at resolveDirectory (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/esm/index.mjs?1766766971494:2:4243)
+    at resolveTsPaths (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/esm/index.mjs?1766766971494:2:4984)
+    at resolve (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/esm/index.mjs?1766766971494:2:5361)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at o (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/@tailwindcss+node@4.1.14/node_modules/@tailwindcss/node/dist/esm-cache.loader.mjs:1:69)
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/vite@7.1.9_@types+node@24.7.0_jiti@2.6.1_lightningcss@1.30.1_tsx@4.20.6/node_modules/vite/dist/node/chunks/dep-CCSnTAeo.js' imported from /home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/vite@7.1.9_@types+node@24.7.0_jiti@2.6.1_lightningcss@1.30.1_tsx@4.20.6/node_modules/vite/dist/node/chunks/dep-Chhhsdoe.js
+    at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+    at moduleResolve (node:internal/modules/esm/resolve:932:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1056:11)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at resolveBase (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/esm/index.mjs?1766766971494:2:3744)
+    at resolveDirectory (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/esm/index.mjs?1766766971494:2:4243)
+    at resolveTsPaths (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/esm/index.mjs?1766766971494:2:4984)
+    at resolve (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/esm/index.mjs?1766766971494:2:5361)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at o (file:///home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/@tailwindcss+node@4.1.14/node_modules/@tailwindcss/node/dist/esm-cache.loader.mjs:1:69)
+11:47:01 AM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+11:47:10 AM [tsx] change in ./server/novelRouter.ts Restarting...
+cnode:internal/modules/run_main:122
+    triggerUncaughtException(
+    ^
+
+Error: Cannot find package '/home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/node_modules/esbuild/index.js' imported from /home/ubuntu/kimi_novel_generator/kimi_novel_generator/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/loader.mjs
+Did you mean to import "esbuild/lib/main.js"?
+    at legacyMainResolve (node:internal/modules/esm/resolve:204:26)
+    at packageResolve (node:internal/modules/esm/resolve:846:14)
+    at moduleResolve (node:internal/modules/esm/resolve:926:18)
+    at defaultResolve (node:internal/modules/esm/resolve:1056:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:654:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:603:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:586:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:242:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:135:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v22.13.0

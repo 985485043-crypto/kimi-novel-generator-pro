@@ -1,0 +1,20 @@
+npm warn exec The following package was not found and will be installed: tsx@4.21.0
+
+node:internal/modules/run_main:122
+    triggerUncaughtException(
+    ^
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /home/ubuntu/kimi_novel_generator/kimi_novel_generator/server/_core/index.ts
+    at packageResolve (node:internal/modules/esm/resolve:857:9)
+    at moduleResolve (node:internal/modules/esm/resolve:926:18)
+    at defaultResolve (node:internal/modules/esm/resolve:1056:11)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at resolveBase (file:///home/ubuntu/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1766767445182:2:3744)
+    at resolveDirectory (file:///home/ubuntu/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1766767445182:2:4243)
+    at resolveTsPaths (file:///home/ubuntu/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1766767445182:2:4984)
+    at async resolve (file:///home/ubuntu/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1766767445182:2:5355)
+    at async nextResolve (node:internal/modules/esm/hooks:748:22)
+    at async Hooks.resolve (node:internal/modules/esm/hooks:240:24) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v22.13.0

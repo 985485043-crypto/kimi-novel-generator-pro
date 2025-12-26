@@ -1,0 +1,5 @@
+
+> kimi_novel_generator@1.0.0 dev
+> NODE_ENV=development tsx watch server/_core/index.ts
+
+sh: 1: tsx: not found

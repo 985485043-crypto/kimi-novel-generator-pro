@@ -1,0 +1,14 @@
+
+> kimi_novel_generator@1.0.0 dev /home/ubuntu/kimi_novel_generator/kimi_novel_generator
+> NODE_ENV=development tsx watch server/_core/index.ts
+
+[OAuth] Initialized with baseURL: 
+[OAuth] ERROR: OAUTH_SERVER_URL is not configured! Set OAUTH_SERVER_URL environment variable.
+Server running on http://localhost:3000/
+[Auth] Missing session cookie
+[Database] Using local SQLite database via LibSQL
+12:12:07 PM [tsx] change in ./server/db.ts Restarting...
+c[OAuth] Initialized with baseURL: 
+[OAuth] ERROR: OAUTH_SERVER_URL is not configured! Set OAUTH_SERVER_URL environment variable.
+Server running on http://localhost:3000/
+ ELIFECYCLE  Command failed.
